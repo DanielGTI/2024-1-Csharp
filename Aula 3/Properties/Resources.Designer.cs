@@ -73,9 +73,29 @@ namespace Aula_3.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dados_Supernerd {
+            get {
+                object obj = ResourceManager.GetObject("dados_Supernerd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ferrari_sf90_stradale {
             get {
                 object obj = ResourceManager.GetObject("ferrari-sf90-stradale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fundo_Supernerd {
+            get {
+                object obj = ResourceManager.GetObject("Fundo_Supernerd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
